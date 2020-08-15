@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/weeklyplanner2.1/static/css/main.bd4c681f.chunk.css",
-    "main.js": "/weeklyplanner2.1/static/js/main.c67c7e6e.chunk.js",
-    "main.js.map": "/weeklyplanner2.1/static/js/main.c67c7e6e.chunk.js.map",
-    "runtime-main.js": "/weeklyplanner2.1/static/js/runtime-main.58858761.js",
-    "runtime-main.js.map": "/weeklyplanner2.1/static/js/runtime-main.58858761.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/weeklyplanner2.1/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.e075a4d5.chunk.js": "/weeklyplanner2.1/static/js/2.e075a4d5.chunk.js",
-    "static/js/2.e075a4d5.chunk.js.map": "/weeklyplanner2.1/static/js/2.e075a4d5.chunk.js.map",
-    "index.html": "/weeklyplanner2.1/index.html",
-    "precache-manifest.c9b6a15381bb163ba992996ce4227c08.js": "/weeklyplanner2.1/precache-manifest.c9b6a15381bb163ba992996ce4227c08.js",
-    "service-worker.js": "/weeklyplanner2.1/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/weeklyplanner2.1/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.bd4c681f.chunk.css.map": "/weeklyplanner2.1/static/css/main.bd4c681f.chunk.css.map",
-    "static/js/2.e075a4d5.chunk.js.LICENSE.txt": "/weeklyplanner2.1/static/js/2.e075a4d5.chunk.js.LICENSE.txt"
+    "main.css": "/wpKeshev/static/css/main.bd4c681f.chunk.css",
+    "main.js": "/wpKeshev/static/js/main.bfbe3c80.chunk.js",
+    "main.js.map": "/wpKeshev/static/js/main.bfbe3c80.chunk.js.map",
+    "runtime-main.js": "/wpKeshev/static/js/runtime-main.9881c503.js",
+    "runtime-main.js.map": "/wpKeshev/static/js/runtime-main.9881c503.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/wpKeshev/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.e075a4d5.chunk.js": "/wpKeshev/static/js/2.e075a4d5.chunk.js",
+    "static/js/2.e075a4d5.chunk.js.map": "/wpKeshev/static/js/2.e075a4d5.chunk.js.map",
+    "index.html": "/wpKeshev/index.html",
+    "precache-manifest.8596427b9fabd9457121193015d733db.js": "/wpKeshev/precache-manifest.8596427b9fabd9457121193015d733db.js",
+    "service-worker.js": "/wpKeshev/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/wpKeshev/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.bd4c681f.chunk.css.map": "/wpKeshev/static/css/main.bd4c681f.chunk.css.map",
+    "static/js/2.e075a4d5.chunk.js.LICENSE.txt": "/wpKeshev/static/js/2.e075a4d5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.58858761.js",
+    "static/js/runtime-main.9881c503.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.e075a4d5.chunk.js",
     "static/css/main.bd4c681f.chunk.css",
-    "static/js/main.c67c7e6e.chunk.js"
+    "static/js/main.bfbe3c80.chunk.js"
   ]
 }
