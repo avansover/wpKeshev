@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wpKeshev/static/css/main.bd4c681f.chunk.css",
-    "main.js": "/wpKeshev/static/js/main.bfbe3c80.chunk.js",
-    "main.js.map": "/wpKeshev/static/js/main.bfbe3c80.chunk.js.map",
+    "main.js": "/wpKeshev/static/js/main.b9d24bc9.chunk.js",
+    "main.js.map": "/wpKeshev/static/js/main.b9d24bc9.chunk.js.map",
     "runtime-main.js": "/wpKeshev/static/js/runtime-main.9881c503.js",
     "runtime-main.js.map": "/wpKeshev/static/js/runtime-main.9881c503.js.map",
     "static/css/2.af3c1da9.chunk.css": "/wpKeshev/static/css/2.af3c1da9.chunk.css",
     "static/js/2.e075a4d5.chunk.js": "/wpKeshev/static/js/2.e075a4d5.chunk.js",
     "static/js/2.e075a4d5.chunk.js.map": "/wpKeshev/static/js/2.e075a4d5.chunk.js.map",
     "index.html": "/wpKeshev/index.html",
-    "precache-manifest.8596427b9fabd9457121193015d733db.js": "/wpKeshev/precache-manifest.8596427b9fabd9457121193015d733db.js",
+    "precache-manifest.27e96a239fec78ea7b89866c4e7ecddb.js": "/wpKeshev/precache-manifest.27e96a239fec78ea7b89866c4e7ecddb.js",
     "service-worker.js": "/wpKeshev/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/wpKeshev/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.bd4c681f.chunk.css.map": "/wpKeshev/static/css/main.bd4c681f.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.e075a4d5.chunk.js",
     "static/css/main.bd4c681f.chunk.css",
-    "static/js/main.bfbe3c80.chunk.js"
+    "static/js/main.b9d24bc9.chunk.js"
   ]
 }
