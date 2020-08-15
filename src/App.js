@@ -404,7 +404,7 @@ export default class App extends Component {
 
       }
 
-      this.setData()
+      
 
 
     }
@@ -440,7 +440,7 @@ export default class App extends Component {
     }
 
 
-
+    this.setData()
     // need to merge shifts
     this.setState({ shiftSet: tempShiftDB })
 
