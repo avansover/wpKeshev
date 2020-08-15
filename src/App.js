@@ -137,6 +137,8 @@ export default class App extends Component {
     //when dropping the shift or leaving the the drop area
     //the marker is deleted
 
+    this.setData()
+
     this.setState({ entanglement: undefined })
 
   }
@@ -251,11 +253,19 @@ export default class App extends Component {
 
   login = () => {
 
+    let data = localStorage.getItem('shiftDB')
+
+    data = JSON.parse(data)
+
+    this.setState({shiftSet: data})
+
     this.setState({ higherBarView: 'out' })
 
   }
 
   deleteShift = (shiftDB) => {
+
+    this.setData()
 
     this.setState({ shiftSet: shiftDB })
 
@@ -393,6 +403,9 @@ export default class App extends Component {
         }
 
       }
+
+      this.setData()
+
 
     }
 
