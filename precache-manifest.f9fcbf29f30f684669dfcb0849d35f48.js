@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "963b899cd4dcb589a99f7c7cb7ecfb37",
+    "revision": "71e7a07684805a8d17f346e9bac0c9a9",
     "url": "/wpKeshev/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wpKeshev/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "532bdf150f254436bbbd",
+    "revision": "08856c0bc3c8f3a83f49",
     "url": "/wpKeshev/static/css/main.14b05ca7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wpKeshev/static/js/2.07bf826f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "532bdf150f254436bbbd",
-    "url": "/wpKeshev/static/js/main.b899efad.chunk.js"
+    "revision": "08856c0bc3c8f3a83f49",
+    "url": "/wpKeshev/static/js/main.946adb86.chunk.js"
   },
   {
     "revision": "a3bdae3769899bc10afd",
