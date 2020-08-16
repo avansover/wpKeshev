@@ -136,9 +136,15 @@ export default class Shift extends Component {
         window.addEventListener('mouseup', this.stopResize)
 
         let dropAreaLeft = dropArea.offsetLeft
-        let ShiftOldWidth = shift.getBoundingClientRect().width
-        let shiftOldLeft = shift.getBoundingClientRect().left - dropAreaLeft - 0.625
+        let ShiftOldWidth = Math.round(shift.getBoundingClientRect().width)
 
+        // need to ask some one why the first one and not the second one
+        // let shiftOldLeft = Math.round(shift.getBoundingClientRect().left - dropAreaLeft - 0.625)
+        let shiftOldLeft = shift.offsetLeft + this.props.partObj.partStart
+
+       
+        //console.log(Math.round(shift.getBoundingClientRect().left));
+        //console.log(shift.offsetLeft + this.props.partObj.partStart);
 
         console.log('dropAreaLeft ' + dropAreaLeft);
         console.log('ShiftOldWidth ' + ShiftOldWidth);
@@ -436,11 +442,11 @@ export default class Shift extends Component {
 
                         let shiftElement = document.getElementById(`${shiftIdArr[i].shiftId}`);
 
-                            while (shiftElement.lastElementChild) {
+                        while (shiftElement.lastElementChild) {
 
-                                shiftElement.removeChild(shiftElement.lastElementChild);
+                            shiftElement.removeChild(shiftElement.lastElementChild);
 
-                            }
+                        }
 
                     } else if (eve.pageX - dropAreaLeft >= 0) {
 
@@ -681,7 +687,7 @@ export default class Shift extends Component {
 
                 <div style={{ display: 'flex', pointerEvents: 'none' }}>
 
-                    <div style={{ backgroundColor: '#888888', width: `${this.resizerWidth()}px`, height: '100%', cursor: 'ew-resize', pointerEvents: 'initial' }}
+                    <div style={{ backgroundColor: '#888888', width: `${this.resizerWidth()}px`, alignSelf: 'center', height: '15px', cursor: 'ew-resize', pointerEvents: 'initial' }}
                         className='leftResizer'
                         onMouseDown={this.resizeShift}
                     ></div>
@@ -718,7 +724,7 @@ export default class Shift extends Component {
                         {this.showShiftEnd()}
                     </div>
 
-                    <div style={{ backgroundColor: '#888888', width: `${this.resizerWidth()}px`, height: '100%', cursor: 'ew-resize', pointerEvents: 'initial' }}
+                    <div style={{ backgroundColor: '#888888', width: `${this.resizerWidth()}px`, alignSelf: 'center', height: '15px', cursor: 'ew-resize', pointerEvents: 'initial' }}
                         className='rightResizer'
                         onMouseDown={this.resizeShift}
 
