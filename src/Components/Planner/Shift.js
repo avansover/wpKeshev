@@ -138,7 +138,9 @@ export default class Shift extends Component {
         let dropAreaLeft = dropArea.offsetLeft
         let ShiftOldWidth = Math.round(shift.getBoundingClientRect().width)
 
-        // need to ask some one why the first one and not the second one
+        // the problem with offsetLeft is that on the last version it gave me the value expected less 1,
+        // getBoundingClientRect seems to be more aqurate, but it can't handle drops outside rounded corner.
+       
         // let shiftOldLeft = Math.round(shift.getBoundingClientRect().left - dropAreaLeft - 0.625)
         let shiftOldLeft = shift.offsetLeft + this.props.partObj.partStart
 
