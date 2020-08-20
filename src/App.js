@@ -26,89 +26,245 @@ export default class App extends Component {
         {
           name: 'Su', date: '', posts: [
             {
-              name: 'post1', parts: [
+              name: '73', parts: [
                 { partStart: 0, partLength: 722, shifts: [] }]
             },
             {
-              name: 'post2', parts: [
-                { partStart: 0, partLength: 242, shifts: [] }, { partStart: 480, partLength: 242, shifts: [] }]
-            }
+              name: '76', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: 'M', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: '74', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: 'Global', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: '71', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: 'M-דלפק', parts: [
+                { partStart: 0, partLength: 362, shifts: [] }]
+            },
+            {
+              name: 'M6-דלפק', parts: [
+                { partStart: 0, partLength: 362, shifts: [] }]
+            },
           ]
         },
         {
           name: 'Mo', posts: [
             {
-              name: 'post1', parts: [
-                { partStart: 0, partLength: 482, shifts: [] }]
+              name: '73', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
             },
             {
-              name: 'post2', parts:
-                [{ partStart: 240, partLength: 482, shifts: [] }]
-            }
+              name: '76', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: 'M', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: '74', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: 'Global', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: '71', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: 'M-דלפק', parts: [
+                { partStart: 0, partLength: 362, shifts: [] }]
+            },
+            {
+              name: 'M6-דלפק', parts: [
+                { partStart: 0, partLength: 362, shifts: [] }]
+            },
           ]
         },
         {
           name: 'Tu', posts: [
             {
-              name: 'post3', parts: [
-                { partStart: 240, partLength: 242, shifts: [] }]
+              name: '73', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
             },
             {
-              name: 'post4', parts:
-                [{ partStart: 0, partLength: 722, shifts: [] }]
-            }
+              name: '76', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: 'M', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: '74', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: 'Global', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: '71', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: 'M-דלפק', parts: [
+                { partStart: 0, partLength: 362, shifts: [] }]
+            },
+            {
+              name: 'M6-דלפק', parts: [
+                { partStart: 0, partLength: 362, shifts: [] }]
+            },
           ]
         },
         {
           name: 'We', posts: [
             {
-              name: 'post3', parts: [
+              name: '73', parts: [
                 { partStart: 0, partLength: 722, shifts: [] }]
             },
             {
-              name: 'post5', parts:
-                [{ partStart: 0, partLength: 242, shifts: [] }, { partStart: 480, partLength: 242, shifts: [] }]
+              name: '76', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
             },
             {
-              name: 'post6', parts:
-                [{ partStart: 0, partLength: 722, shifts: [] }]
+              name: 'M', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: '74', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: 'Global', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: '71', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: 'M-דלפק', parts: [
+                { partStart: 0, partLength: 362, shifts: [] }]
+            },
+            {
+              name: 'M6-דלפק', parts: [
+                { partStart: 0, partLength: 362, shifts: [] }]
             },
           ]
         },
         {
           name: 'Th', posts: [
             {
-              name: 'post1', parts: [
+              name: '73', parts: [
                 { partStart: 0, partLength: 722, shifts: [] }]
             },
             {
-              name: 'post4', parts:
-                [{ partStart: 240, partLength: 242, shifts: [] }]
-            }
+              name: '76', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: 'M', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: '74', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: 'Global', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: '71', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: 'M-דלפק', parts: [
+                { partStart: 0, partLength: 362, shifts: [] }]
+            },
+            {
+              name: 'M6-דלפק', parts: [
+                { partStart: 0, partLength: 362, shifts: [] }]
+            },
           ]
         },
         {
           name: 'Fr', posts: [
             {
-              name: 'post2', parts: [
+              name: '73', parts: [
                 { partStart: 0, partLength: 722, shifts: [] }]
             },
             {
-              name: 'post4', parts:
-                [{ partStart: 0, partLength: 722, shifts: [] }]
-            }
+              name: '76', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: 'M', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: '74', parts: [
+                { partStart: 0, partLength: 332, shifts: [] }]
+            },
+            {
+              name: 'Global', parts: [
+                { partStart: 0, partLength: 272, shifts: [] }]
+            },
+            {
+              name: '71', parts: [
+                { partStart: 0, partLength: 332, shifts: [] }]
+            },
+            {
+              name: 'M-דלפק', parts: [
+                { partStart: 0, partLength: 242, shifts: [] }]
+            },
+            {
+              name: 'M6-דלפק', parts: [
+                { partStart: 0, partLength: 242, shifts: [] }]
+            },
           ]
         },
         {
           name: 'Sa', posts: [
             {
-              name: 'post3', parts: [
+              name: '73', parts: [
                 { partStart: 0, partLength: 722, shifts: [] }]
             },
             {
-              name: 'post5', parts:
-                [{ partStart: 0, partLength: 722, shifts: [] }]
-            }
+              name: '76', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: 'M', parts: [
+                { partStart: 0, partLength: 722, shifts: [] }]
+            },
+            {
+              name: '74', parts: [
+                { partStart: 420, partLength: 302, shifts: [] }]
+            },
+            {
+              name: 'Global', parts: [
+                { partStart: 420, partLength: 302, shifts: [] }]
+            },
+            {
+              name: '71', parts: [
+                { partStart: 420, partLength: 302, shifts: [] }]
+            },
           ]
         },
 
@@ -138,7 +294,7 @@ export default class App extends Component {
     //when dropping the shift or leaving the the drop area
     //the marker is deleted
 
-    this.setData()
+    //this.setData()
 
     this.setState({ entanglement: undefined })
 
@@ -254,11 +410,11 @@ export default class App extends Component {
 
   login = () => {
 
-    let data = localStorage.getItem('shiftDB')
+    // let data = localStorage.getItem('shiftDB')
 
-    data = JSON.parse(data)
+    // data = JSON.parse(data)
 
-    this.setState({shiftSet: data})
+    // this.setState({shiftSet: data})
 
     this.setState({ higherBarView: 'out' })
 
@@ -266,9 +422,9 @@ export default class App extends Component {
 
   deleteShift = (shiftDB) => {
 
-    this.setState({ shiftSet: shiftDB })
+    //this.setData()
 
-    this.setData()
+    this.setState({ shiftSet: shiftDB })
 
   }
 
@@ -294,7 +450,7 @@ export default class App extends Component {
 
     this.setState({ shiftSet: tempShiftDB })
 
-    this.setData()
+    //this.setData()
 
   }
 
@@ -467,7 +623,7 @@ export default class App extends Component {
     }
 
 
-    this.setData()
+    //this.setData()
 
     this.setState({ shiftSet: tempShiftDB })
 

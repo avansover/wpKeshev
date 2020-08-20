@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import WorkerTicket from './WorkerTicket'
+import StickyBox from "react-sticky-box"
 
 
 export default class WorkersBox extends Component {
@@ -12,23 +13,25 @@ export default class WorkersBox extends Component {
 
     render() {
         return (
-            <div>
+            <StickyBox>
+                <div>
 
-                {this.props.workerDB2.map((e,i)=>{
-                    return (
-                        <WorkerTicket
-                        bringWorkerID2={this.bringWorkerID3}
+                    {this.props.workerDB2.map((e, i) => {
+                        return (
+                            <WorkerTicket
+                                bringWorkerID2={this.bringWorkerID3}
 
-                        key={i} 
-                        workerDB3={this.props.workerDB2}
+                                key={i}
+                                workerDB3={this.props.workerDB2}
 
-                        i1={i}
-                        />
-                    )
-                })}
+                                i1={i}
+                            />
+                        )
+                    })}
 
-                
-            </div>
+
+                </div>
+            </StickyBox>
         )
     }
 }

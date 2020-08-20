@@ -19,7 +19,7 @@ export default class Post extends Component {
 
                 <div className='postBodyDiv'>
 
-                    <div>{this.props.shiftSet[this.props.dayInd].posts[this.props.postInd].name}</div>
+                    <div style={{ display: 'flex', position: "relative", justifyContent: 'center', width: '70px' }}>{this.props.shiftSet[this.props.dayInd].posts[this.props.postInd].name}</div>
 
                     <div className='partsBodyDiv'
                         style={{ display: 'flex', position: "relative", left: '10px' }}

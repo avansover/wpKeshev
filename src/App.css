@@ -20,6 +20,13 @@
   width: fit-content;
 }
 
+#plannerStatsBody{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 0.125rem;
+  padding: 0.125rem;
+}
+
 #DASDiv {
   color: #ffff00;
   border: 3px solid black;
@@ -30,10 +37,10 @@
 
 .dayBodyDiv {
   display: flex;
-  width: 820px;
+  width: 850px;
   border: 1px solid black;
   border-radius: 0.25rem;
-  margin-bottom: 3px;
+  margin-bottom: 2px;
   padding: 3px;
 }
 
@@ -46,7 +53,6 @@
 
 .postBodyDiv {
   display: flex;
-  margin: 3px;
 }
 
 .partsBodyDiv {
